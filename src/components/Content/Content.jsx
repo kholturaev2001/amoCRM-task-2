@@ -1,4 +1,5 @@
 import styles from "./Content.module.scss";
+import line from '../../assets/icons/gradient_line.svg'
 
 const Content = () => {
   return (
@@ -32,6 +33,26 @@ const Content = () => {
             <p className={styles.card_content}>использования CRM</p>
           </div>
         </div>
+
+        <div className={styles.cards_container_mobi}>
+          <div className={styles.card_mobi}>
+              <img src={line} alt="line" />
+              <p>Skype аудит</p>
+          </div>
+          <div className={styles.card_mobi}>
+              <img src={line} alt="line" />
+              <p>30 виджетов</p>
+          </div>
+          <div className={styles.card_mobi}>
+              <img src={line} alt="line" />
+              <p>Dashboard</p>
+          </div>
+          <div className={styles.card_mobi}>
+              <img src={line} alt="line" />
+              <p>Месяц amoCRM</p>
+          </div>
+        </div>
+
         <div className={styles.btn_div}>
           <button>Получить консультацию</button>
         </div>

@@ -16,22 +16,24 @@ const Footer = () => {
             <button className={styles.footer_link}>Вакансии</button>
           </div>
           <div className={styles.menu}>
-            <p className={styles.title}>меню</p>
-            <button className={styles.footer_link}>Расчёт стоимости</button>
-            <button className={styles.footer_link}>Услуги</button>
-            <button className={styles.footer_link}>Виджеты</button>
-            <button className={styles.footer_link}>Интеграции</button>
-            <button className={styles.footer_link}>Наши клиенты</button>
-          </div>
-          <div className={styles.menu}>
-            <p className={styles.title}></p>
-            <button className={styles.footer_link}>Кейсы</button>
-            <button className={styles.footer_link}>
-              Благодарственные письма
-            </button>
-            <button className={styles.footer_link}>Сертификаты</button>
-            <button className={styles.footer_link}>Блог на YouTube</button>
-            <button className={styles.footer_link}>Вопрос / Ответ</button>
+            <div>
+              <p className={styles.title}>меню</p>
+              <button className={styles.footer_link}>Расчёт стоимости</button>
+              <button className={styles.footer_link}>Услуги</button>
+              <button className={styles.footer_link}>Виджеты</button>
+              <button className={styles.footer_link}>Интеграции</button>
+              <button className={styles.footer_link}>Наши клиенты</button>
+            </div>
+            <div>
+              <p className={styles.title}></p>
+              <button className={styles.footer_link}>Кейсы</button>
+              <button className={styles.footer_link}>
+                Благодарственные письма
+              </button>
+              <button className={styles.footer_link}>Сертификаты</button>
+              <button className={styles.footer_link}>Блог на YouTube</button>
+              <button className={styles.footer_link}>Вопрос / Ответ</button>
+            </div>
           </div>
         </div>
         <div className={styles.contacts}>
