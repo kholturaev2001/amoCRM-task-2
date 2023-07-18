@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   color: rgba(228, 229, 234, 1);
 }
 
@@ -19,5 +19,9 @@
   .app_content {
     height: 97vh;
     justify-content: flex-start;
+  }
+  .heart_content {
+    display: grid;
+    grid-template-rows: 99vh;
   }
 }

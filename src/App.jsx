@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   return (
-    <div>
+    <div className="heart_content">
       <Background />
       <div className="app_content">
         <Navbar />
