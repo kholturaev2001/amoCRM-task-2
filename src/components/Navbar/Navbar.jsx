@@ -19,7 +19,7 @@ const Navbar = () => {
           <button>Сертификаты</button>
         </div>
       </section>
-      <section>
+      <section className={styles.phone_nets}>
         <a href="tel:+7 555 555-55-55">+7 555 555-55-55</a>
         <button>
           <img src={tg} alt="logo" />

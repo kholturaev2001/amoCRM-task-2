@@ -3,6 +3,8 @@
   justify-content: space-between;
   width: 100%;
   margin-top: 100px;
+  background: #0e1014;
+
 
   > .left_content {
     display: flex;
@@ -90,5 +92,11 @@
         cursor: pointer;
       }
     }
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 320px) {
+  .container {
+    display: none;
   }
 }
