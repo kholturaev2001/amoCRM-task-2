@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  color: #e4e5ea;
+  gap: 200px;
+  margin-top: 60px;
+
+  > section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    &:nth-child(2) {
+      gap: 2rem;
+    }
+
+    .logo {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      max-width: 140px;
+      gap: 1rem;
+      margin-right: 2rem;
+
+      > p {
+        font-size: 10px;
+        font-family: 'Montserrat', sans-serif;
+      }
+    }
+
+    > ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1.5rem;
+
+      > li {
+        list-style-type: none;
+      }
+    }
+  }
+}
