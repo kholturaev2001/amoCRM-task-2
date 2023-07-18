@@ -7,7 +7,7 @@ const Content = () => {
       <section className={styles.left_content}>
         <p>Зарабатывайте больше</p>
         <p>с WELBEX</p>
-        <p>Развиваем и контролируем продажи за вас</p>
+        <p>Развиваем и контролируем продажи за вас.</p>
       </section>
       <section className={styles.right_content}>
         <p className={styles.cards_header}>
