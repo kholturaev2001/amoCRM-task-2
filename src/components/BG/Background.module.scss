@@ -1,0 +1,31 @@
+.container {
+  background: #0e1014;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  border: 1px solid white;
+  display: flex;
+  z-index: -1;
+}
+
+.main {
+  position: relative;
+  width: 100%;
+}
+
+.sm_blur_red_ball {
+  margin-left: 50%;
+  margin-top: 30%;
+  position: absolute;
+}
+
+.big_red_ball {
+  margin-left: 32%;
+  margin-top: 5%;
+  position: absolute;
+}
+
+.sm_purple_ball {
+  margin-left: 55%;
+  position: absolute;
+}
